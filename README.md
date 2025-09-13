@@ -38,8 +38,8 @@ credit-card-fraud/
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
-   cd credit-card-fraud
+   git clone https://github.com/deepthivennuru/credit-card-fraud-detection-system.git
+   cd credit-card-fraud-detection-system
    ```
 
 2. Create and activate a virtual environment:
