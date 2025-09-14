@@ -18,10 +18,12 @@ Credit card fraud is a significant problem for financial institutions, costing a
 credit-card-fraud/
 │
 ├── notebooks/                   # Jupyter notebooks for data analysis and model development
+│   ├── fixed_eda.ipynb          # Fixed Exploratory Data Analysis notebook
+│   ├── fixed_model.ipynb        # Fixed Model Development notebook
 │   ├── eda.ipynb                # Exploratory Data Analysis notebook
 │   ├── model.ipynb              # Model Development notebook
-│   ├── 01_exploratory_data_analysis.ipynb  # Original notebook (may show as invalid on GitHub)
-│   └── 02_model_development.ipynb          # Original notebook (may show as invalid on GitHub)
+│   ├── 01_exploratory_data_analysis.ipynb  # Original notebook
+│   └── 02_model_development.ipynb          # Original notebook
 │
 ├── models/                      # Saved machine learning models
 │   └── fraud_detection_model.pkl
@@ -61,8 +63,8 @@ credit-card-fraud/
 
 5. Run the notebooks to analyze data and train the model:
    ```
-   jupyter notebook notebooks/eda.ipynb
-   jupyter notebook notebooks/model.ipynb
+   jupyter notebook notebooks/fixed_eda.ipynb
+   jupyter notebook notebooks/fixed_model.ipynb
    ```
 
 ## Running the Application
