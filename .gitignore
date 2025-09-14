@@ -35,7 +35,10 @@ venv.bak/
 
 # Large files
 *.csv
+# Track specific model files with Git LFS, exclude all others
 *.pkl
+!models/fraud_detection_model.pkl
+!api/models/fraud_detection_model.pkl
 
 # Mac OS
 .DS_Store
